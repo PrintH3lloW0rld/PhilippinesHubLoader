@@ -6,7 +6,7 @@ notification.Volume = 20
 game.StarterGui:SetCore("SendNotification", {
       Icon = "http://www.roblox.com/asset/?id=10074877413";
       Title = "Philippines Hub: Loader", 
-      Text = "Checking Game🔃 🎮...";
+      Text = "Checking Game...";
 notification:play()
 })
 wait(5)
@@ -14,7 +14,15 @@ wait(5)
 game.StarterGui:SetCore("SendNotification", {
     Icon = "http://www.roblox.com/asset/?id=10074877413";
     Title = "Philippines Hub: Loader", 
-    Text = "Game 🎮:✅ Blox Fruits 🍇";
+    Text = "Game: Blox Fruits";
+notification:play()
+})
+wait(3)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "http://www.roblox.com/asset/?id=10074877413";
+    Title = "Philippines Hub: Loader", 
+    Text = "Loading Script...";
 notification:play()
 })
 wait(1)
@@ -22,24 +30,16 @@ wait(1)
 game.StarterGui:SetCore("SendNotification", {
     Icon = "http://www.roblox.com/asset/?id=10074877413";
     Title = "Philippines Hub v2.0", 
-    Text = "Script Loading🔃...";
-notification:play()
-})
-wait(1)
-
-game.StarterGui:SetCore("SendNotification", {
-    Icon = "http://www.roblox.com/asset/?id=10074877413";
-    Title = "Philippines Hub v2.0", 
-    Text = "Loaded 🎉... Enjoy 👍";
+    Text = "Loaded... Enjoy :)";
 notification:play()
 })
 wait(.5)
-
+--- Blox Fruits
 loadstring(game:HttpGet('https://raw.githubusercontent.com/PrintH3lloW0rld/PhilippinesHubLoader/main/BFv3'))()
 wait(.5)
 
 game.StarterGui:SetCore("SendNotification", {
   Icon = "";
     Title = "Philippines Hub: Loader", 
-    Text = "Welcome, thx for using my script😊👌"..game.Players.LocalPlayer.Name.."!!";
+    Text = "Welcome, thx for using my script"..game.Players.LocalPlayer.Name.."!!";
 })

@@ -41,5 +41,5 @@ wait(.5)
 game.StarterGui:SetCore("SendNotification", {
   Icon = "rbxassetid://10074877413";
     Title = "Philippines Hub: Loader", 
-    Text = "Welcome, thx for using my script"..game.Players.LocalPlayer.Name.."!!";
+    Text = "Welcome, thx for using my script"  ..game.Players.LocalPlayer.Name.."!!";
 })

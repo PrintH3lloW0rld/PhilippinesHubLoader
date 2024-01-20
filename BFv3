@@ -2516,14 +2516,14 @@ local Window = OrionLib:MakeWindow({Name = "Philippines Hub: [Blox Fruits]", Hid
 OrionLib:MakeNotification({
     Name = "Please Wait!!!",
     Content = "Checking Functions...",
-    Image = "rbxassetid://8192162908",
+    Image = "rbxassetid://4483345998",
     Time = 5
 })
 wait(3)
 OrionLib:MakeNotification({
     Name = "Initializing Script...",
     Content = "Wait for the HUB to completely load!!!",
-    Image = "rbxassetid://8192162908",
+    Image = "rbxassetid://4483345998",
     Time = 10
 })
 
@@ -2531,85 +2531,85 @@ OrionLib:MakeNotification({
 
 local W = Window:MakeTab({
     Name = "Credits/Info",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
     Name = "Main Farm",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
     Name = "Setting/Options",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
     Name = "Item & Quest",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
     Name = "Player Status",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
     Name = "ESP",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
     Name = "Raid/Dungeon",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
     Name = "Player",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
     Name = "Teleport",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
     Name = "Server Info/Status",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
     Name = "Devil Fruit",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
     Name = "Race V4",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
     Name = "Shop",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
     Name = "Misc/Others",
-    Icon = "rbxassetid://8192162908",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
@@ -8401,13 +8401,13 @@ pcall(function()
                 OrionLib:MakeNotification({
                     Name = "Notif!",
                     Content = "[EN] : Please cancel the farrm level quest (if any)",
-                    Image = "rbxassetid://8192162908",
+                    Image = "rbxassetid://4483345998",
                     Time = 9
                 })
                 OrionLib:MakeNotification({
                     Name = "Notif!",
                     Content = "waa ey wajud kasabot",
-                    Image = "rbxassetid://8192162908",
+                    Image = "rbxassetid://4483345998",
                     Time = 9
                 })
             end
@@ -8576,7 +8576,7 @@ spawn(function()
                     OrionLib:MakeNotification({
                         Name = "PH Hub: Observation Haki Notif!",
                         Content = "!!You Are Max Point!!",
-                        Image = "rbxassetid://14919714384",
+                        Image = "rbxassetid://4483345998",
                         Time = 5
                     })
                     
@@ -8725,7 +8725,7 @@ spawn(function()
             OrionLib:MakeNotification({
                 Name = "Error Purchasing!!!",
                 Content = "You not have beli or fragment!",
-                Image = "rbxassetid://8192162908",
+                Image = "rbxassetid://4483345998",
                 Time = 5
             })
             end
@@ -8886,7 +8886,7 @@ spawn(function()
                         OrionLib:MakeNotification({
                             Name = "Philippines Hub: AutoGodHuman",
                             Content = "You don`t have Superhuman :(",
-                            Image = "rbxassetid://14919714384",
+                            Image = "rbxassetid://4483345998",
                             Time = 5
                         })
                         
@@ -8899,7 +8899,7 @@ spawn(function()
                         OrionLib:MakeNotification({
                             Name = "Philippines Hub: AutoGodHuman",
                             Content = "You don`t have Death Step :(",
-                            Image = "rbxassetid://14919714384",
+                            Image = "rbxassetid://4483345998",
                             Time = 5
                         })
                         
@@ -8912,7 +8912,7 @@ spawn(function()
                         OrionLib:MakeNotification({
                             Name = "Philippines Hub: AutoGodHuman",
                             Content = "You don`t have Sharkman Karate :(",
-                            Image = "rbxassetid://14919714384",
+                            Image = "rbxassetid://4483345998",
                             Time = 5
                         })
                         
@@ -8922,10 +8922,10 @@ spawn(function()
                             game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyDragonTalon")
                         end
                     else
-                        gOrionLib:MakeNotification({
+                        OrionLib:MakeNotification({
                             Name = "Philippines Hub: AutoGodHuman",
                             Content = "You don`t have Electric Claw :(",
-                            Image = "rbxassetid://14919714384",
+                            Image = "rbxassetid://4483345998",
                             Time = 5
                         })
                         
@@ -8936,7 +8936,7 @@ spawn(function()
                                 OrionLib:MakeNotification({
                                     Name = "Philippines Hub: AutoGodHuman",
                                     Content = "You don`t have Enough Materials :(",
-                                    Image = "rbxassetid://14919714384",
+                                    Image = "rbxassetid://4483345998",
                                     Time = 5
                                 })
                                 
@@ -8948,7 +8948,7 @@ spawn(function()
                         OrionLib:MakeNotification({
                             Name = "Philippines Hub: AutoGodHuman",
                             Content = "You don`t have Dragon Talon :( ",
-                            Image = "rbxassetid://14919714384",
+                            Image = "rbxassetid://4483345998",
                             Time = 5
                         })
                         
@@ -11347,7 +11347,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "Phlippines Hub",
                     Content = "Turn Off Hop Find Moon Please :D",
-                    Image = "rbxassetid://8192162908",
+                    Image = "rbxassetid://4483345998",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
@@ -11355,7 +11355,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "Philippines Hub",
                     Content = "Hop Server",
-                    Image = "rbxassetid://8192162908",
+                    Image = "rbxassetid://4483345998",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
@@ -11363,7 +11363,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "Philippines Hub",
                     Content = "Hop Server",
-                    Image = "rbxassetid://8192162908",
+                    Image = "rbxassetid://4483345998",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
@@ -11371,7 +11371,7 @@ spawn(function()
                 OrionLib:MakeNotification({
                     Name = "Philippines Hub",
                     Content = "Hop Server",
-                    Image = "rbxassetid://8192162908",
+                    Image = "rbxassetid://4483345998",
                     Time = 5
                 })
             else
@@ -11384,7 +11384,7 @@ spawn(function()
 OrionLib:MakeNotification({
         Name = "Done Loading All Functions...",
         Content = "Loading script complete!, Enjoyyy :D",
-        Image = "rbxassetid://8192162908",
+        Image = "rbxassetid://4483345998",
         Time = 5
     })
 
@@ -11417,7 +11417,7 @@ OrionLib:Init()
 OrionLib:MakeNotification({
     Name = "Philippines Hub: Blox Fruits",
     Content = "Script Fully Loaded!! Enjoy :)",
-    Image = "rbxassetid://8192162908",
+    Image = "rbxassetid://4483345998",
     Time = 5
 })
 

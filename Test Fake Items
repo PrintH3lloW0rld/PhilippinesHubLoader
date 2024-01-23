@@ -2863,8 +2863,8 @@ Fake:AddButton({
 	Name = "Fake (Admin Mori-Mori) Item",
 	Callback = function()
         local mori = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
-            Mori.Name = "Mori-Mori"
-            Mori.CanBeDropped = false
+            mori.Name = "Mori-Mori"
+            mori.CanBeDropped = false
   	end
 })
 

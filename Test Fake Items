@@ -2863,8 +2863,8 @@ Fake:AddButton({
 	Name = "Fake (Admin Mori-Mori) Item",
 	Callback = function()
         local mori = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
-            mori.Name = "Mori-Mori"
-            mori.CanBeDropped = false
+            Mori.Name = "Mori-Mori"
+            Mori.CanBeDropped = false
   	end
 })
 
@@ -2940,6 +2940,393 @@ Fake:AddButton({
             TTD.CanBeDropped = false
   	end
 })
+
+local Section = Fake:AddSection({
+    Name = "Fake Fruit Item (no physical fruit hold only item)"
+})
+
+
+local Section = M:AddSection({
+    Name = "Common Fruits"
+})
+
+Fake:AddButton({
+	Name = "Fake Rocket Fruit Item",
+	Callback = function()
+        local rocket = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            rocket.Name = "Rocket Fruit"
+            rocket.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Spin Fruit Item",
+	Callback = function()
+        local spin = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            spin.Name = "Spin Fruit"
+            spin.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Chop Fruit Item",
+	Callback = function()
+        local chop = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            chop.Name = "Chop Fruit"
+            chop.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Spring Fruit Item",
+	Callback = function()
+        local spring = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            spring.Name = "Spring Fruit"
+            spring.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Bomb Fruit Item",
+	Callback = function()
+        local bomb = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            bomb.Name = "Bomb Fruit"
+            bomb.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Smoke Fruit Item",
+	Callback = function()
+        local smoke = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            smoke.Name = "Smoke Fruit"
+            smoke.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Spike Fruit Item",
+	Callback = function()
+        local spike = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            spike.Name = "Spike Fruit"
+            spike.CanBeDropped = false
+  	end
+})
+
+local Section = M:AddSection({
+    Name = "Uncommon Fruits"
+})
+
+
+Fake:AddButton({
+	Name = "Fake Flame Fruit Item",
+	Callback = function()
+        local flame = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            flame.Name = "Flame Fruit"
+            flame.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Falcon Fruit Item",
+	Callback = function()
+        local falcon = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            falcon.Name = "Falcon Fruit"
+            falcon.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Ice Fruit Item",
+	Callback = function()
+        local ice = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            ice.Name = "Ice Fruit"
+            ice.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Sand Fruit Item",
+	Callback = function()
+        local sand = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            sand.Name = "Sand Fruit"
+            sand.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Dark Fruit Item",
+	Callback = function()
+        local dark = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            dark.Name = "Dark Fruit"
+            dark.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Diamond Fruit Item",
+	Callback = function()
+        local diamond = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            diamond.Name = "Diamond Fruit"
+            diamond.CanBeDropped = false
+  	end
+})
+
+
+local Section = M:AddSection({
+    Name = "Rare Fruits"
+})
+
+Fake:AddButton({
+	Name = "Fake Light Fruit Item",
+	Callback = function()
+        local light = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            light.Name = "Light Fruit"
+            light.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Rubber Fruit Item",
+	Callback = function()
+        local rubber = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            rubber.Name = "Rubber Fruit"
+            rubber.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Barrier Fruit Item",
+	Callback = function()
+        local barrier = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            barrier.Name = "Barrier Fruit"
+            barrier.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Ghost Fruit Item",
+	Callback = function()
+        local ghost = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            ghost.Name = "ghost Fruit"
+            ghost.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Magma Fruit Item",
+	Callback = function()
+        local magma = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            magma.Name = "Magma Fruit"
+            magma.CanBeDropped = false
+  	end
+})
+
+local Section = Fake:AddSection({
+    Name = "Legendary Fruits"
+})
+
+
+Fake:AddButton({
+	Name = "Fake Quake Fruit Item",
+	Callback = function()
+        local quake = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            quake.Name = "Quake Fruit"
+            quake.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Buddha Fruit Item",
+	Callback = function()
+        local buddha = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            buddha.Name = "Buddha Fruit"
+            buddha.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Love Fruit Item",
+	Callback = function()
+        local love = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            love.Name = "Love Fruit"
+            love.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Spider Fruit Item",
+	Callback = function()
+        local spider = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            spider.Name = "Spider Fruit"
+            spider.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Sound Fruit Item",
+	Callback = function()
+        local sound = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            sound.Name = "Sound Fruit"
+            sound.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Phoenix Fruit Item",
+	Callback = function()
+        local phoenix = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            phoenix.Name = "Pheonix Fruit"
+            phoenix.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Portal Fruit Item",
+	Callback = function()
+        local portal = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            portal.Name = "Portal Fruit"
+            portal.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Rumble Fruit Item",
+	Callback = function()
+        local rumble = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            rumble.Name = "Rumble Fruit"
+            rumble.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Pain Fruit Item",
+	Callback = function()
+        local pain = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            pain.Name = "Pain Fruit"
+            pain.CanBeDropped = false
+  	end
+})
+
+
+local Section = Fake:AddSection({
+    Name = "Mythical Fruits"
+})
+
+
+Fake:AddButton({
+	Name = "Fake Blizzard Fruit Item",
+	Callback = function()
+        local blizzard = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            blizzard.Name = "Blizzard Fruit"
+            blizzard.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Gravity Fruit Item",
+	Callback = function()
+        local gravity = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            gravity.Name = "Gravity Fruit"
+            gravity.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Mammoth Fruit Item",
+	Callback = function()
+        local mammoth = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            mammoth.Name = "Mammoth Fruit"
+            mammoth.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake T-rex Fruit Item",
+	Callback = function()
+        local trex = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            trex.Name = "T-Rex Fruit"
+            trex.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Dough Fruit Item",
+	Callback = function()
+        local dough = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            dough.Name = "Dough Fruit"
+            dough.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Shadow Fruit Item",
+	Callback = function()
+        local shadow = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            shadow.Name = "Shadow Fruit"
+            shadow.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Venom Fruit Item",
+	Callback = function()
+        local venom = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            venom.Name = "Venom Fruit"
+            venom.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Control Fruit Item",
+	Callback = function()
+        local control = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            control.Name = "Control Fruit"
+            control.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Spirit Fruit Item",
+	Callback = function()
+        local spirit = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            spirit.Name = "Spirit Fruit"
+            spirit.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Dragon Fruit Item",
+	Callback = function()
+        local dragon = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            dragon.Name = "Dragon Fruit"
+            dragpn.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Leopard Fruit Item",
+	Callback = function()
+        local leopard = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            leopard.Name = "Leopard Fruit"
+            leopard.CanBeDropped = false
+  	end
+})
+
+Fake:AddButton({
+	Name = "Fake Kitsune Fruit Item",
+	Callback = function()
+        local kitsune = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
+            kitsune.Name = "Kitsune Fruit"
+            kitsune.CanBeDropped = false
+  	end
+})
+
+
+
+
+
+
 
 
 -----------------------
